@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and packaging output
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Local secrets and environment settings
+.env
+.env.*
+!.env.example
+
+# Local logs and machine-specific files
+logs/
+*.log
+.DS_Store
+Thumbs.db
+.claude/settings.local.json
+
+# Editors
+.vscode/
+.idea/
+*.swp
